@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(Setting());
+  runApp(AboutUs());
 }
 
 
 
-class Setting extends StatelessWidget {
+class AboutUs extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Setting Page"),
+        title: Text("About Us"),
       ),
       body: Center(
         child: ElevatedButton(

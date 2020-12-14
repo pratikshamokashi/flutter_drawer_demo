@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(SecondRoute());
+  runApp(LoginForm());
 }
 
 
 
-class SecondRoute extends StatelessWidget {
+class LoginForm extends StatelessWidget {
 
   // void showToast() {
   //   Fluttertoast.showToast(
@@ -26,10 +26,12 @@ class SecondRoute extends StatelessWidget {
       appBar: AppBar(
         title: Text("Home Page"),
       ),
-      body: Padding(
+      body:
+      Padding(
         padding: EdgeInsets.all(10),
         child: Column(
             children: <Widget>[
+              Text('Simple Login Form'),
         Padding(
         padding: EdgeInsets.all(10),
         child: TextField(

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_drawer_demo/ContactUs.dart';
 
-import 'SecondRoute.dart';
-import 'Setting.dart';
+import 'LoginForm.dart';
+import 'AboutUs.dart';
 
 void main() {
   runApp(MyApp());
@@ -71,16 +71,16 @@ class MyHomePage extends StatelessWidget{
                 // Navigator.pop(context);
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => SecondRoute()),);
+                    MaterialPageRoute(builder: (context) => LoginForm()),);
               },
             ),
             ListTile(
-              leading: Icon(Icons.settings), title: Text("Settings"),
+              leading: Icon(Icons.assignment_ind_outlined), title: Text("About Us"),
               onTap: () {
                 // Navigator.pop(context);
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Setting()),);
+                  MaterialPageRoute(builder: (context) => AboutUs()),);
               },
             ),
             ListTile(
